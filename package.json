@@ -1,0 +1,36 @@
+{
+  "name": "@atom/plexjs",
+  "version": "0.1.0",
+  "description": "Wrapper for the plex API.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oscar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "@types/node-fetch": "^2.6.2",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint": "^8.30.0",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "node-fetch": "2.6",
+    "xml2js": "^0.4.23"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thereal-atom/plexjs.git"
+  },
+  "keywords": [
+    "WDS"
+  ],
+  "bugs": {
+    "url": "https://github.com/thereal-atom/plexjs.git"
+  },
+  "homepage": "https://github.com/thereal-atom/plexjs.git#readme"
+}
